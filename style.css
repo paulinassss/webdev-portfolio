@@ -1,0 +1,167 @@
+.gradient-background1 {
+    background: linear-gradient(0deg, #ffee8c, #e287bf);
+  }
+
+.gradient-background2 {
+    background: linear-gradient(0deg,  #d5a7fd, #ffee8c);
+}
+
+.gradient-background3 {
+    background: linear-gradient(0deg,#8dd9ff, #d5a7fd);
+
+}
+
+.gradient-background4 {
+    background: linear-gradient(0deg,#d5a7fd, #8dd9ff);
+}
+
+.gradient-background5 {
+  background: linear-gradient(0deg, #e287bf, #d5a7fd);
+}
+
+svg {
+    margin: 5px;
+    color: white;
+}
+
+  #header, #footer {
+    background-color: #e287bf;
+  }
+
+.nav-item {
+    --bs-nav-link-color: white;
+    font-family: Fraunces, sans-serif;
+    font-size: 1.3rem;
+    text-shadow: #bc1c7f 5px -2px 5px;
+    transition: box-shado, background-color 0.5s;
+    border-radius: 15px;
+    --bs-nav-link-hover-color: white;
+    margin: 0 5px;
+    border: 3px solid rgba(255, 255, 255, 0.183);
+    border-radius: 20px;
+  }
+
+.nav-item:hover {
+    box-shadow: #d965ac 5px -3px 20px;
+    background-color: #e7a6cece;
+}
+
+.nav-item:active {
+    background-color: #fcadde;
+}
+  
+  #aboutme h1 {
+    color: white!important;
+    font-family: Fraunces, sans-serif;
+    font-size: 50px!important;
+    text-shadow: #bc1c7f 5px -2px 5px;
+  }
+
+  #aboutme p {
+    color: white;
+    font-family:Poppins, sans-serif;
+    text-shadow: #bc1c7f 1px -1px 20px;
+  }
+
+  #aboutme img {
+    border-bottom: 10px solid #b765ff95;
+  }
+
+  #ex h2, #skills h2, #projects h2, #contact h2 {
+    color: white!important;
+    font-family: Fraunces, sans-serif;
+    font-size: 50px!important;
+    font-weight: 1000!important;
+    text-shadow: #bc1c7f 5px -2px 5px;
+
+  }
+
+  #ex h4, #skills h4 {
+    font-size: 30px!important;
+    color: white!important;
+    font-family: Fraunces, sans-serif;
+    font-weight: 600!important;
+    text-shadow: #aa5188 2px -1px 5px;
+  }
+
+  #ex p, #skills p, #projects p, #contact a, #footer p {
+    color: white;
+    font-family:Poppins, sans-serif;
+    font-size: 18px!important;
+  }
+
+ .list-group {
+    --bs-list-group-color: white;
+    --bs-list-group-bg: rgba(0, 0, 0, 0.081);
+    --bs-list-group-border-width: 3px;
+    --bs-list-group-border-color: rgba(255, 255, 255, 0.559);
+    --bs-list-group-border-radius: 20px;
+    --bs-list-group-action-hover-color: white;
+    --bs-list-group-action-hover-bg: rgba(0, 0, 0, 0.17);
+    --bs-list-group-action-active-bg:rgba(0, 0, 0, 0.17);
+ }
+
+ .custom-bg {
+    background-color: rgba(0, 0, 0, 0.135);
+    border: 2px solid rgba(255, 255, 255, 0.411);
+    border-radius: 20px; 
+ }
+
+ #ex .row {
+    gap: 10px;
+ }
+
+ #projects .card {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid rgba(255, 255, 255, 0.559);
+  border-radius: 20px;
+  max-width: 500px;
+  transition: box-shadow 0.5s;
+ }
+
+ .card-img-top {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+#projects .card:hover {
+  box-shadow: #e287bf 10px -10px 15px,
+              #ffee8c -3px 3px 10px;
+}
+
+.btn {
+  border: 3px solid rgba(255, 255, 255, 0.559);
+  border-radius: 20px;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.135);
+  --bs-btn-hover-border-color: rgba(255, 255, 255, 0.559);
+}
+
+.border-bottom {
+  --bs-border-color: rgba(255, 255, 255, 0.244)!important;
+}
+
+#footer p {
+  color: rgba(255, 255, 255, 0.499)!important;
+}
+
+@media (max-width: 430px) {
+  .nav-item {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #custom-resp {
+    display: grid!important;
+    grid-template: auto auto / 1fr 1fr 1fr;
+  }
+  #long {
+    grid-area: 1/2/2/4;
+  }
+}
